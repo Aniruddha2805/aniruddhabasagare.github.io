@@ -1,0 +1,83 @@
+.myimage{
+}
+
+.dots {
+  margin: 40px auto;
+}
+
+.dot {
+  display: inline-block;
+  border-radius: 50%;
+  width: 50%;
+  background-color: #EEE;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+}
+.dot.dot-success {
+  background-color: #449D44;
+}
+.dot.dot-warning {
+  background-color: #F0AD4E;
+}
+.dot.dot-danger {
+  background-color: #D9534F;
+}
+.dot.dot-sm {
+  height: 10px;
+  width: 10px;
+}
+.dot.dot-lg {
+  margin: 0 4px;
+  height: 20px;
+  width: 20px;
+}
+
+.professionaExp{
+    text-align: center;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 100px;
+    position: absolute;
+    left: 50%;  
+}
+
+h5{
+    color: green;
+}
+
+.col-md-3,.col-sm-12{
+    border: 1px solid black;
+}
+.col-md-6, .col-sm-12{
+     border: 1px solid black;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 80%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+    
+}
+body{
+    background-color: #41f4f1;
+}
+.navbar{
+    background-color: cornflowerblue;
+}
